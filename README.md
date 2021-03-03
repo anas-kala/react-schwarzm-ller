@@ -1,3 +1,19 @@
+# How to use this repository
+clone the repository to a folder.
+open the folder with visual studio code.
+delete the node_modules file.
+delete package-lock.json file.
+
+make sure that the file package.json includes the following scripts:
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  
+in bash run the command 'npm install'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
